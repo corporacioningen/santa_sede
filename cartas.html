@@ -67,7 +67,7 @@ width:185px;font-family:Raleway,sans-serif;color:#630;
     <tr>
         <td width="8%" valign="top" align="center" bordercolor="#663300">
             <p align="left">
-                <a href="/content/vatican/es.html"><img id="logo" width="64" height="78" title="www.vatican.va" alt="www.vatican.va" src="/etc/designs/vatican/library/images/logo-vatican.png"></a>
+                <a href="/vatican"><img id="logo" width="64" height="78" title="www.vatican.va" alt="www.vatican.va" src="/vatican/logo-vatican.png"></a>
             </p>
         </td>
         <td width="83%" align="center" bordercolor="#663300">
@@ -85,27 +85,17 @@ width:185px;font-family:Raleway,sans-serif;color:#630;
                     <td style="border-right: 1px solid #D3C3AD;">
                         <div class="item"><a href="https://www.vatican.va/content/romancuria/es.html">CURIA ROMANA</a></div>
                     </td>
-                    <td>
-                        <div class="item-spacer dropdownmenu_container">
-                            <div class="spacer dropdownmenu">
-                                <div><input type="text" name="search_box" placeholder="vatican:Search ..." id="navbar_search_box"></div>
-                                <div class="search_item"><a onclick="searchFromNavbar(navbar_search_box, '/content/francesco')">Buscar en Francesco</a></div>
-                                <div class="search_item"><a onclick="searchFromNavbar(navbar_search_box, '/content/francesco/es')">Buscar en Francesco</a></div>
-                                <div class="search_item"><a onclick="searchFromNavbar(navbar_search_box, 'https://www.vatican.va')">Buscar en Vatican.va</a></div>
-                            </div>
-                        </div>
+                    <td class="mobile-gone size32">
+                        <a href="javascript:history.go(-1)"> <img width="32" height="32" src="/vatican/back.png" alt="Back" title="Back"></a>
                     </td>
                     <td class="mobile-gone size32">
-                        <a href="javascript:history.go(-1)"> <img width="32" height="32" src="/etc/designs/vatican/library/images/back.png" alt="Back" title="Back"></a>
+                        <a href="#" onclick="up();return false;"> <img width="32" height="32" src="/vatican/top.png" alt="Top" title="Top"></a>
                     </td>
                     <td class="mobile-gone size32">
-                        <a href="#" onclick="up();return false;"> <img width="32" height="32" src="/etc/designs/vatican/library/images/top.png" alt="Top" title="Top"></a>
-                    </td>
-                    <td class="mobile-gone size32">
-                        <a href="#" onclick="self.print();return false;"><img width="26" height="26" src="/etc/designs/vatican/library/images/print.png" alt="Print" title="Print"></a>
+                        <a href="#" onclick="self.print();return false;"><img width="26" height="26" src="/vatican/print.png" alt="Print" title="Print"></a>
                     </td >
                     <td class="mobile-gone size32">
-                        <a title="Search" target="_blank" href="/content/vatican/es/search.html"><img width="32" height="32" alt="Search" src="/etc/designs/vatican/library/images/search.png"></a>
+                        <a title="Search" target="_blank" href="/content/vatican/es/search.html"><img width="32" height="32" alt="Search" src="/vatican/search.png"></a>
                     </td>
                 </tr>
                 </tbody>
